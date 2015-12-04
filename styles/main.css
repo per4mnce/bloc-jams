@@ -62,6 +62,9 @@ body {
     margin: 0 auto;
     max-width: 64rem;
 }
+.container.narrow {
+    max-width: 56rem;
+}
 @media (min-width: 40rem) {
     /* Medium and small screens (640px) */
     /* Style information will go here */
