@@ -11,6 +11,7 @@ var createSongRow = function(songNumber, songName, songLength) {
     
     var clickHandler = function() {
         var songNumber = parseInt($(this).attr('data-song-number'));
+        currentSongFromAlbum = currentAlbum.songs[songNumber-1];
 
         if (currentlyPlayingSongNumber !== null) {
             // Revert to song number for currently playing song because user started playing new song.
